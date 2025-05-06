@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Bonus-Geocache GC9PZ4K</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --success: #27ae60;
+            --background: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-2px);
+        }
+
+        pre {
+            background: var(--background);
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+
+        button {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        button:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+
+        #coordinates-display {
+            background: linear-gradient(135deg, #27ae60 0%, #219a52 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: center;
+            animation: fadeIn 0.5s ease;
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+            display: none;
+        }
+
+        #missing-keys-display {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            text-align: center;
+            animation: fadeIn 0.5s ease;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+            display: none;
+        }
+
+        .highlight {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .missing-key {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            margin: 0.2rem;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .storage-status {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        button#clear-btn {
+            background: #e74c3c;
+            color: white;
+        }
+
+        button#copy-btn {
+            background: #2980b9;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .box {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗺️ Bonus-Geocache GC9PZ4K</h1>
+        
+        <div class="box">
+            <h2>🔍 Gefundene Cache-Parameter</h2>
+            <pre id="query"></pre>
+            <p>Hinweis: Die Parameter (a-f) findest du in den Cache-Beschreibungen der Bonusrunde!</p>
+        </div>
+
+        <div class="box">
+            <div class="storage-status">
+                <h2>📦 Gesammelte Bonus-Codes</h2>
+                <button onclick="clearStorage()" id="clear-btn">🔁 Zurücksetzen</button>
+            </div>
+            <pre id="storage-content"></pre>
+        </div>
+
+        <div id="coordinates-display"></div>
+        <div id="missing-keys-display"></div>
+    </div>
+
+    <script>
+        const requiredKeys = ["a", "b", "c", "d", "e", "f"];
+
+        const processQuery = () => {
+            const params = new URLSearchParams(window.location.search);
+            params.forEach((value, key) => localStorage.setItem(key, value));
+            document.getElementById('query').textContent = window.location.search.substring(1);
+            updateStorageDisplay();
+        };
+
+        const updateStorageDisplay = () => {
+            const storageContent = Object.entries(localStorage)
+                .map(([key, value]) => `${key}: ${value}`)
+                .join('\n');
+            
+            document.getElementById('storage-content').textContent = storageContent || 'Noch keine Codes gesammelt';
+
+            const hasAllKeys = requiredKeys.every(key => localStorage.getItem(key) !== null);
+            const coordinatesDisplay = document.getElementById('coordinates-display');
+            const missingKeysDisplay = document.getElementById('missing-keys-display');
+
+            if(hasAllKeys) {
+                coordinatesDisplay.style.display = 'block';
+                missingKeysDisplay.style.display = 'none';
+                coordinatesDisplay.innerHTML = `
+                    <h3>🎉 Finalkoordinaten freigeschaltet!</h3>
+                    <div class="highlight">N 47° 07.754' E 007° 31.962'</div>
+                    <button onclick="copyCoordinates()" id="copy-btn">📋 Koordinaten kopieren</button>
+                `;
+            } else {
+                coordinatesDisplay.style.display = 'none';
+                missingKeysDisplay.style.display = 'block';
+                missingKeysDisplay.innerHTML = `
+                    <h3>⚠️ Fehlende Bonus-Codes:</h3>
+                    ${requiredKeys.map(key => {
+                        const isPresent = localStorage.getItem(key) !== null;
+                        return `<span class="missing-key">${key}${isPresent ? ' ✅' : ''}</span>`;
+                    }).join(' ')}
+                    <p style="margin-top:1rem">Suche die fehlenden Codes in den Cache-Beschreibungen!</p>
+                `;
+            }
+        };
+
+        const copyCoordinates = () => {
+            navigator.clipboard.writeText("N 47° 07.754 E 007° 31.962")
+                .then(() => alert('Koordinaten erfolgreich kopiert! Viel Erfolg beim Final!'))
+                .catch(err => console.error('Kopieren fehlgeschlagen:', err));
+        };
+
+        const clearStorage = () => {
+            if(confirm('⚠️ Achtung! Wirklich alle gesammelten Codes löschen?\n(Dies ist sinnvoll bei einem Neustart der Suche)')) {
+                localStorage.clear();
+                updateStorageDisplay();
+                alert('Bonus-Codes wurden zurückgesetzt! Viel Erfolg bei der erneuten Suche!');
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', processQuery);
+        window.addEventListener('popstate', processQuery);
+    </script>
+</body>
+</html>
