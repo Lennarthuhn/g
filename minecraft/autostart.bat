@@ -8,7 +8,7 @@ timeout /t 5 >nul
 
 :: Starte Minecraft-Server (im eigenen Fenster)
 echo [1/2] Starte Minecraft-Server...
-start "Minecraft Server" java -Xmx2G -Xms1G -jar "C:\Users\Huhn\odrive\OneDrive-365 for Business\Apps\minecraft\paper.jar" nogui
+start "Minecraft Server" java -Xmx2G -Xms1G -jar paper.jar nogui
 
 :: Warte 10 Sekunden, damit der Server richtig läuft
 echo [Warte 10 Sekunden, bis Server läuft...]
