@@ -1,0 +1,36 @@
+[17:32:05.401 main/INFO] Lade Erweiterungen...
+[17:32:05.410 main/INFO] 0 Erweiterung(en) geladen
+[17:32:06.742 main/INFO] ******************************************
+[17:32:06.742 main/INFO] 
+[17:32:06.742 main/INFO] Geyser Version 2.8.3-b930 (git-master-6690e75) wird geladen
+[17:32:06.743 main/INFO] 
+[17:32:06.743 main/INFO] ******************************************
+[17:32:09.400 GeyserServer-2-1/INFO] Geyser auf UDP-Port 19132 gestartet
+[17:32:09.422 main/INFO] Fertig (2.679s)! Verwende /geyser help für Hilfe!
+[17:33:42.607 GeyserServerChild-4-1/INFO] Spieler LennartHuhn2371 verbunden
+[17:33:42.634 clientNetworkSession-6-1/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:34:24.996 GeyserServerChild-4-1/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Bedrock Client hat die Zeit überschritten verlassen
+[17:34:44.912 GeyserServerChild-4-2/INFO] Spieler LennartHuhn2371 verbunden
+[17:34:44.915 clientNetworkSession-6-2/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:35:25.412 GeyserServerChild-4-2/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Bedrock Client hat die Zeit überschritten verlassen
+[17:50:12.016 GeyserServerChild-4-3/INFO] Spieler LennartHuhn2371 verbunden
+[17:50:12.019 clientNetworkSession-6-3/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:50:19.768 clientNetworkSession-6-3/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Fliegen ist auf diesem Server nicht erlaubt verlassen
+[17:52:11.936 GeyserServerChild-4-4/INFO] Spieler LennartHuhn2371 verbunden
+[17:52:11.938 clientNetworkSession-6-4/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:52:21.220 clientNetworkSession-6-4/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Fliegen ist auf diesem Server nicht erlaubt verlassen
+[17:52:47.337 GeyserServerChild-4-5/INFO] Spieler LennartHuhn2371 verbunden
+[17:52:47.340 clientNetworkSession-6-5/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:53:03.676 GeyserServerChild-4-5/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Bedrock Client hat die Zeit überschritten verlassen
+[17:53:37.610 GeyserServerChild-4-6/INFO] Spieler LennartHuhn2371 verbunden
+[17:53:37.612 clientNetworkSession-6-6/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:53:45.417 clientNetworkSession-6-6/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Fliegen ist auf diesem Server nicht erlaubt verlassen
+[17:54:48.480 GeyserServerChild-4-7/INFO] Spieler LennartHuhn2371 verbunden
+[17:54:48.482 clientNetworkSession-6-7/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:55:04.281 GeyserServerChild-4-7/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Bedrock Client hat die Zeit überschritten verlassen
+[17:55:41.276 GeyserServerChild-4-8/INFO] Spieler LennartHuhn2371 verbunden
+[17:55:41.278 clientNetworkSession-6-8/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:56:02.318 GeyserServerChild-4-8/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Bedrock Client hat die Zeit überschritten verlassen
+[17:59:19.670 GeyserServerChild-4-9/INFO] Spieler LennartHuhn2371 verbunden
+[17:59:19.672 clientNetworkSession-6-9/INFO] LennartHuhn2371 (eingeloggt als: LennartHuhn2371) ist jetzt mit dem Java Server unter der Adresse localhost verbunden
+[17:59:27.317 clientNetworkSession-6-9/INFO] LennartHuhn2371 hat den Java Server unter der Adresse localhost wegen Fliegen ist auf diesem Server nicht erlaubt verlassen
