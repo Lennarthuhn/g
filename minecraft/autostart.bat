@@ -14,7 +14,7 @@ start "Minecraft Server" java -Xmx2G -Xms1G -jar paper.jar nogui
 echo [Warte 10 Sekunden, bis Server läuft...]
 timeout /t 10 >nul
 
-start "Geyser" cmd /k java -jar ""C:\Users\lstal\Documents\GitHub\g\geyser\Geyser-Standalone.jar""
+start "Geyser" cmd /k java -jar "C:\Users\lstal\Downloads\geyser\Geyser-Standalone.jar"
 
 echo [Warte 10 Sekunden, bis geyser läuft...]
 timeout /t 10 >nul

@@ -1,36 +1,35 @@
-[17:52:24.648 main/INFO] Lade Erweiterungen...
-[17:52:24.660 main/INFO] 0 Erweiterung(en) geladen
-[17:52:24.751 main/ERROR] Failed to load permissions.yml - proceeding without it
-com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
- at [Source: (File); line: 1, column: 1]
-	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[Geyser-Standalone.jar:?]
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5008) ~[Geyser-Standalone.jar:?]
-	at com.fasterxml.jackson.data[17:52:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:52:30] [ServerMain/INFO]: Loaded 1461 recipes
-[17:52:30] [ServerMain/INFO]: Loaded 1574 advancements
-[17:52:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:52:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 633.6ms
-[17:52:31] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[17:52:31] [Server thread/INFO]: Loading properties
-[17:52:31] [Server thread/INFO]: This server is running Paper version 1.21.10-64-main@fba780d (2025-10-07T18:34:29Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
-[17:52:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:52:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:52:31] [Server thread/IN[17:52:33.587 GeyserServer-2-1/INFO] Geyser auf UDP-Port 19132 gestartet
-[17:52:33.599 main/INFO] Fertig (6.887s)! Verwende /geyser help f[17:52:33] [Server thread/INFO]: Default game type: SURVIVAL
-[17:52:33] [Server thread/INFO]: Generating keypair
-[17:52:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:52:34] [Server thread/INFO]: Using default channel type
-[17:52:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:52:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:52:34] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[17:52:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7926ef07]
-[17:52:35] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[17:52:39] [Server thread/INFO]: [floodgate] Floodgate wurde in 3’216 ms gestartet
-[17:52:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:52:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[17:52:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:52:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:52:40] [Server thread/WARN]: 
+[18:47:50] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Windows 11 10.0 (amd64)
+[18:47:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-64-main@fba780d (2025-10-07T18:34:29Z) for Minecraft 1.21.10
+[18:47:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:47:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[18:47:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - WorldEdit (7.3.16+cbf4bd5), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
+[18:47:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:48:03] [ServerMain/INFO]: Loaded 1461 recipes
+[18:48:03] [ServerMain/INFO]: Loaded 1574 advancements
+[18:48:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:48:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 610.9ms
+[18:48:04] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[18:48:04] [Server thread/INFO]: Loading properties
+[18:48:04] [Server thread/INFO]: This server is running Paper version 1.21.10-64-main@fba780d (2025-10-07T18:34:29Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[18:48:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:48:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:48:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:48:05] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[18:48:06] [Server thread/INFO]: Default game type: SURVIVAL
+[18:48:06] [Server thread/INFO]: Generating keypair
+[18:48:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:48:06] [Server thread/INFO]: Using default channel type
+[18:48:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:48:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:48:07] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[18:48:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3155a6c3]
+[18:48:08] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[18:48:09] [Server thread/INFO]: [floodgate] Floodgate wurde in 1’178 ms gestartet
+[18:48:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:48:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[18:48:09] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:48:09] [Server thread/INFO]: WEPIF: Using the Bukkit Perm[18:48:09.962 [18:48:10] [Server thread/WARN]: 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -41,73 +40,70 @@ com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map d
 ** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
 **********************************************
 
-[17:52:41] [Server thread/INFO]: Preparing level "world"
-[17:52:43] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[17:52:43] [Server thread/INFO]: Preparing spawn area: 100%
-[17:52:43] [Server thread/INFO]: Prepared spawn area in 4 ms
-[17:52:43] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:52:43] [Server thread/INFO]: Prepared spawn area in 6 ms
-[17:52:43] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:52:43] [Server thread/INFO]: Prepared spawn area in 3 ms
-[17:52:43] [Server thread/INFO]: Done preparing level "world" (1.887s)
-[17:52:43] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[17:52:44] [Server thread/WARN]: [floodgate] "floodgate v2.2.4-SNAPSHOT (b118-40d320a)" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [GeyserMC].
-[17:52:45] [Server thread/INFO]: [spark] Starting background profiler...
-[17:52:45] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[17:52:45] [Server thread/INFO]: Running delayed init tasks
-[17:52:45] [Server thread/INFO]: Done (31.156s)! For help, type "help"
-[17:53:10] [User Authenticator #0/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[17:53:13] [Server thread/INFO]: Lennarthuhnhuhn joined the game
-[17:53:13] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:50604] logged in with entity id 1 at ([world]-260.851712515478, 67.78559965036983, -425.5544187640544)
-[18:00:08] [Server thread/INFO]: [@: Set the time to 18000]
-[18:00:19] [Server thread/INFO]: [@: Set the time to 1000]
-[18:01:33] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
-[18:01:33] [Server thread/INFO]: Lennarthuhnhuhn left the game
-[18:02:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:15:06] [User Authenticator #1/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[18:15:06] [Server thread/INFO]: Lennarthuhnhuhn joined the game
-[18:15:06] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:56048] logged in with entity id 2868 at ([world]-254.37727943515182, 115.46758678066254, -404.0654629462167)
-[19:06:07] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[19:06:07] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[19:06:07] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[19:07:45] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[19:07:45] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[19:07:45] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[19:09:29] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /KILL
-[19:09:56] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /paper:mspt
-[19:10:10] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[19:10:10] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[19:10:10] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[19:12:39] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /K
-[19:12:43] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[19:12:43] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[19:12:43] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[19:15:52] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
-[19:15:52] [Server thread/INFO]: Lennarthuhnhuhn left the game
-[19:16:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[19:16:52] [User Authenticator #2/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[19:16:52] [Server thread/INFO]: Lennarthuhnhuhn joined the game
-[19:16:52] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:54144] logged in with entity id 21783 at ([world]-480.9196555027275, 79.42887833315734, 676.1155275944651)
-[19:17:51] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[19:17:51] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[19:17:51] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[19:29:01] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
-[19:29:01] [Server thread/INFO]: Lennarthuhnhuhn left the game
-[19:30:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:09:40] [User Authenticator #3/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[20:09:41] [Server thread/INFO]: Lennarthuhnhuhn joined the game
-[20:09:41] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:59849] logged in with entity id 24703 at ([world]-274.21885384334996, 75.1682701264269, -383.7513891114558)
-[20:10:19] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
-[20:10:19] [Server thread/INFO]: Lennarthuhnhuhn left the game
-[20:10:20] [User Authenticator #3/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[20:10:20] [Server thread/INFO]: Lennarthuhnhuhn joined the game
-[20:10:20] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:59890] logged in with entity id 25265 at ([world]-270.6963593471387, 61.5875, -411.5991320834798)
-[20:27:29] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[20:27:29] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[20:27:29] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[21:07:15] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
-[21:07:15] [Server thread/INFO]: Lennarthuhnhuhn was killed
-[21:07:15] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
-[21:19:35] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
-[21:19:35] [Server thread/INFO]: Lennarthuhnhuhn left the game
-[21:20:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:48:10] [Server thread/INFO]: Preparing level "world"
+[18:48:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[18:48:11] [Server thread/INFO]: Preparing spawn area: 100%
+[18:48:11] [Server thread/INFO]: Prepared spawn area in 2 ms
+[18:48:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[18:48:11] [Server thread/INFO]: Prepared spawn area in 1 ms
+[18:48:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[18:48:11] [Server thread/INFO]: Prepared spawn area in 0 ms
+[18:48:11] [Server thread/INFO]: Done preparing level "world" (0.606s)
+[18:48:11] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[18:48:11] [Server thread/WARN]: [floodgate] "floodgate v2.2.4-SNAPSHOT (b118-40d320a)" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [GeyserMC].
+[18:48:12] [Server thread/INFO]: [spark] Starting background profiler...
+[18:48:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:48:12] [Server thread/INFO]: Running delayed init tasks
+[18:48:12] [Server thread/INFO]: Done (22.702s)! For help, type "help"
+[18:49:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:02:07] [User Authenticator #0/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
+[19:02:09] [Server thread/INFO]: Lennarthuhnhuhn joined the game
+[19:02:09] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:54854] logged in with entity id 1 at ([world]-323.6078867015586, 62.0, -464.84332338550496)
+[19:05:22] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 1000
+[19:05:22] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 1000 [TNT] to Lennarthuhnhuhn]
+[19:05:53] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 4000
+[19:05:53] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 4000 [TNT] to Lennarthuhnhuhn]
+[19:06:39] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 7000
+[19:06:56] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:06:56] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:07:50] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:07:50] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:08:58] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:08:58] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:09:27] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:09:27] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:09:54] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:09:54] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:10:23] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:10:23] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:11:49] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:11:49] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:12:13] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:12:13] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:15:51] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
+[19:15:51] [Server thread/INFO]: Lennarthuhnhuhn was killed
+[19:15:51] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
+[19:17:13] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
+[19:17:13] [Server thread/INFO]: Lennarthuhnhuhn was killed
+[19:17:13] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
+[19:21:02] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:21:02] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:21:27] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /give @a minecraft:tnt 6000
+[19:21:27] [Server thread/INFO]: [Lennarthuhnhuhn: Gave 6000 [TNT] to Lennarthuhnhuhn]
+[19:26:23] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /KILL
+[19:26:27] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
+[19:26:27] [Server thread/INFO]: Lennarthuhnhuhn was killed
+[19:26:27] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
+[20:22:53] [Server thread/INFO]: Lennarthuhnhuhn issued server command: /kill
+[20:22:53] [Server thread/INFO]: Lennarthuhnhuhn was killed
+[20:22:53] [Server thread/INFO]: [Lennarthuhnhuhn: Killed Lennarthuhnhuhn]
+[20:23:30] [Server thread/INFO]: [@: Set the time to 18000]
+[20:23:41] [Server thread/INFO]: [@: Set the time to 1000]
+[20:24:39] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
+[20:24:39] [Server thread/INFO]: Lennarthuhnhuhn left the game
+[20:25:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:19:20] [User Authenticator #1/INFO]: UUID of player Lennarthuhnhuhn is c3d120a8-a526-40d7-a711-82c469242bf6
+[21:19:21] [Server thread/INFO]: Lennarthuhnhuhn joined the game
+[21:19:21] [Server thread/INFO]: Lennarthuhnhuhn[/127.0.0.1:62986] logged in with entity id 13934 at ([world]-178.74844187803797, 72.0, -366.0373585693653)
+[22:10:16] [Server thread/INFO]: Lennarthuhnhuhn lost connection: Disconnected
+[22:10:16] [Server thread/INFO]: Lennarthuhnhuhn left the game
