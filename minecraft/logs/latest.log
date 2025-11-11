@@ -1,295 +1,80 @@
-[17:21:26.277 main/INFO] Lade Erweiterungen...
-[17:21:26.293 main/INFO] 0 Erweiterung(en) geladen
-[17:21:26.388 main/ERROR] Failed to load permissions.yml - proceeding without it
+[19:04:38.003 main/INFO] Lade Erweiterungen...
+[19:04:38.015 main/INFO] 0 Erweiterung(en) geladen
+[19:04:38.103 main/ERROR] Failed to load permissions.yml - proceeding without it
 com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
  at [Source: (File); line: 1, column: 1]
 	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[Geyser-Standalone.jar:?]
 	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5008) ~[Geyser-Standalone.jar:?]
 	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4910) ~[Geyser-Standalone.jar:?]
 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3725) ~[Geyser-Standalone.jar:?]
-	at org.geysermc.geyser.util.FileUtils.loadConfig(FileUtils.java:63) ~[Geyser-Standalone.jar:?]
-	at org.geysermc.geyser.command.standalone.StandaloneCloudCommandManager.<init>(StandaloneCloudCommandManager.java:80) [Geyser-Standalone.jar:?]
-	at org.geysermc.geyser.platform[17:21:29] [ServerMain/INFO]: Loaded 1461 recipes
-[17:21:29] [ServerMain/INFO]: Loaded 1574 advancements
-[17:21:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:21:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 712.8ms
-[17:21:30] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[17:21:30] [Server thread/INFO]: Loading properties
-[17:21:30] [Server thread/INFO]: This server is running Paper version 1.21.10-105-main@1f31ee5 (2025-11-04T19:32:20Z) (Implementing API version 1.2[17:21:34.198 GeyserServer-2-1/INFO] Geyser auf UDP-Port 19132 gestartet
-[17:21:34.213 main/INFO] Fertig (5.672s)! Verwende /geyser help für Hilfe!
-[17:21:34.214 main/WARN] Geyser übersetzt Bewegungen aus Bedrock nicht perfekt. Die Nutzung von Geyser auf Servern, welche ein Anti-Cheat System einsetzen, kann einen Bann zur Folge haben.
-[17:21:34.335 ForkJoinPool.commonPool-worker-4/INFO] Es steht ein neues Geyser Update zur Unterstützung von Bedrock Version 1.21.120 zur Verfügung. Laden Sie es hier herunter: https://geysermc.org/download
-ead/INFO]: Starting Minecraft server on *:25565
-[17:21:32] [Server thread/INFO]: Using default channel type
-[17:21:32] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:21:32] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:21:32] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
-[17:21:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@38f1046]
-[17:21:33] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[17:21:35] [Server thread/INFO]: [floodgate] Floodgate wurde in 1’577 ms gestartet
-[17:21:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:21:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
-[17:21:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:21:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:21:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
-[17:21:38] [Server thread/INFO]: Preparing level "world"
-[17:21:39] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[17:21:39] [Server thread/INFO]: Preparing spawn area: 100%
-[17:21:39] [Server thread/INFO]: Prepared spawn area in 17 ms
-[17:21:39] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:21:39] [Server thread/INFO]: Prepared spawn area in 12 ms
-[17:21:39] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:21:39] [Server thread/INFO]: Prepared spawn area in 14 ms
-[17:21:39] [Server thread/INFO]: Done preparing level "world" (1.188s)
-[17:21:39] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[17:21:39] [Server thread/WARN]: [floodgate] "floodgate v2.2.4-SNAPSHOT (b118-40d320a)" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [GeyserMC].
-[17:21:39] [Server thread/INFO]: [spark] Starting background profiler...
-[17:21:39] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[17:21:40] [Server thread/INFO]: Running delayed init tasks
-[17:21:40] [Server thread/INFO]: Done (24.910s)! For help, type "help"
-[17:22:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:58:31] [User Authenticator #0/INFO]: UUID of player lennarthuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[17:58:36] [Server thread/INFO]: lennarthuhn joined the game
-[17:58:36] [Server thread/INFO]: lennarthuhn[/127.0.0.1:53585] logged in with entity id 1 at ([world]-132.03093041848174, 96.0, -446.30000001192093)
-[19:32:40] [Server thread/INFO]: lennarthuhn issued server command: /give @a minecraft:command_block
-[19:32:40] [Server thread/INFO]: [lennarthuhn: Gave 1 [Command Block] to lennarthuhn]
-[20:33:57] [Server thread/INFO]: lennarthuhn lost connection: Disconnected
-[20:33:58] [Server thread/INFO]: lennarthuhn left the game
-[20:34:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:16:21] [User Authenticator #1/INFO]: UUID of player lennarthuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[21:16:22] [Server thread/INFO]: lennarthuhn joined the game
-[21:16:22] [Server thread/INFO]: lennarthuhn[/127.0.0.1:49719] logged in with entity id 10810 at ([world]-126.7917725912634, 96.125, -448.2953600997201)
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:50] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:51] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:52] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:53] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:54] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:55] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:56] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:57] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:58] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:19:59] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:00] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:20:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:24:27] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:24:28] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:24:45] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:25:29] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:28:07] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:28:25] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:33:18] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:36:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:40:10] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:40:11] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:47:01] [Server thread/INFO]: [@: Gave 3 [Diamond] to lennarthuhn]
-[21:52:11] [Server thread/INFO]: [@: Gave 6 [Diamond] to lennarthuhn]
-[21:53:18] [Server thread/INFO]: [@: Gave 6 [Diamond] to lennarthuhn]
-[21:53:55] [Server thread/INFO]: [@: Gave 6 [Diamond] to lennarthuhn]
-[21:55:19] [Server thread/INFO]: lennarthuhn lost connection: Disconnected
-[21:55:19] [Server thread/INFO]: lennarthuhn left the game
+	at org.geysermc.geyser.util.FileUtils.loadConfig(FileUtils.java:63) ~[Geyser[19:04:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:04:45] [ServerMain/INFO]: Loaded 1461 recipes
+[19:04:45] [ServerMain/INFO]: Loaded 1574 advancements
+[19:04:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:04:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 867.8ms
+[19:04:47] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[19:04:47] [Server thread/INFO]: Loading properties
+[19:04:47] [Server thread/INFO]: This server is running Paper version 1.21.10-105-main@1f31ee5 (2025-11-04T19:32:20Z) (Implementing API version 1.2[19:04:48.304 GeyserServer-2-1/INFO] Geyser auf UDP-Port 19132 gestartet
+[19:04:48.326 main/INFO] Fertig (7.494s)! Verwende /geyser help für Hilfe!
+[19:04:48.326 main/WARN] Geyser übersetzt Bewegungen aus Bedrock nicht perfekt. Die Nutzung von Geyser auf Servern, welche ein Anti-Cheat System einsetzen, kann ein[19:04:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[19:04:49] [Server thread/INFO]: Default game type: SURVIVAL
+[19:04:49] [Server thread/INFO]: Generating keypair
+[19:04:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:04:49] [Server thread/INFO]: Using default channel type
+[19:04:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:04:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:04:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
+[19:04:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@e5fc129]
+[19:04:50] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[19:04:52] [Server thread/INFO]: [floodgate] Floodgate wurde in 1’254 ms gestartet
+[19:04:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:04:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
+[19:04:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:04:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:04:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
+[19:04:54] [Server thread/INFO]: Preparing level "world"
+[19:04:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[19:04:55] [Server thread/INFO]: Preparing spawn area: 100%
+[19:04:55] [Server thread/INFO]: Prepared spawn area in 2 ms
+[19:04:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[19:04:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[19:04:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[19:04:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[19:04:55] [Server thread/INFO]: Done preparing level "world" (1.254s)
+[19:04:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[19:04:56] [Server thread/WARN]: [floodgate] "floodgate v2.2.4-SNAPSHOT (b118-40d320a)" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [GeyserMC].
+[19:04:56] [Server thread/INFO]: [spark] Starting background profiler...
+[19:04:56] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:04:56] [Server thread/INFO]: Running delayed init tasks
+[19:04:56] [Server thread/INFO]: Done (30.406s)! For help, type "help"
+[19:05:10] [User Authenticator #0/INFO]: UUID of player lennarthuhn is c3d120a8-a526-40d7-a711-82c469242bf6
+[19:05:12] [Server thread/INFO]: lennarthuhn joined the game
+[19:05:12] [Server thread/INFO]: lennarthuhn[/127.0.0.1:64103] logged in with entity id 1 at ([world]-131.144882344856, 96.0, -445.7641876898435)
+[19:52:37] [Server thread/INFO]: lennarthuhn issued server command: /give @a minecraft:command_block
+[19:52:37] [Server thread/INFO]: [lennarthuhn: Gave 1 [Command Block] to lennarthuhn]
+[20:30:03] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:32:26] [Server thread/INFO]: lennarthuhn issued server command: /give @a minecraft:command_block
+[20:32:26] [Server thread/INFO]: [lennarthuhn: Gave 1 [Command Block] to lennarthuhn]
+[20:33:18] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:35:02] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:35:03] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:35:13] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:35:15] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:35:45] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:36:41] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:38:38] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:38:42] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:38:53] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:38:56] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:39:12] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:39:16] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:40:31] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:40:34] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:43:15] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:43:18] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:45:30] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:45:33] [Server thread/INFO]: [@: Changed the block at -139, 93, -441]
+[20:48:09] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[20:48:12] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[21:53:20] [Server thread/INFO]: lennarthuhn lost connection: Disconnected
+[21:53:20] [Server thread/INFO]: lennarthuhn left the game
