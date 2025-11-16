@@ -1,6 +1,6 @@
-[19:25:00.421 main/INFO] Lade Erweiterungen...
-[19:25:00.432 main/INFO] 0 Erweiterung(en) geladen
-[19:25:00.515 main/ERROR] Failed to load permissions.yml - proceeding without it
+[17:37:47.519 main/INFO] Lade Erweiterungen...
+[17:37:47.530 main/INFO] 0 Erweiterung(en) geladen
+[17:37:47.612 main/ERROR] Failed to load permissions.yml - proceeding without it
 com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
  at [Source: (File); line: 1, column: 1]
 	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[Geyser-Standalone.jar:?]
@@ -9,71 +9,91 @@ com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map d
 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3725) ~[Geyser-Standalone.jar:?]
 	at org.geysermc.geyser.util.FileUtils.loadConfig(FileUtils.java:63) ~[Geyser-Standalone.jar:?]
 	at org.geysermc.geyser.command.standalone.StandaloneCloudCommandManager.<init>(StandaloneCloudCommandManager.java:80) [Geyser-Standalone.jar:?]
-	at org.geysermc.geyser.platform[19:25:01] [ServerMain/INFO]: Loaded 1461 recipes
-[19:25:01] [ServerMain/INFO]: Loaded 1574 advancements
-[19:25:01] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[19:25:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 641.2ms[1[19:25:02] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[19:25:02] [Server thread/INFO]: Loading properties
-[19:25:02] [Server thread/INFO]: This server is running Paper version 1.21.10-105-main@1f31ee5 (2025-11-04T19:32:20Z) (Implementing API version 1.2[19:25:07.343 GeyserServer-2-1/ERROR] Konnte Geyser nicht unter 0.0.0.0:19132 starten
-[19:25:07.346 main/ERROR] Exception in thread "main" java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind
-[19:25:07.347 main/ERROR] 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[19:25:07.348 main/ERROR] 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[19:25:07.348 main/ERROR] 	at java.base/java.util.concurrent.CompletableFuture$BiRelay.tryFire(CompletableFuture.java:1498)
-[19:25:07.348 main/ERROR] 	at java.base/java.util.concurrent.CompletableFuture$CoCompletion.tryFire(CompletableFuture.java:1219)
-[19:25:07.348 main/ERROR] 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-[19:25:07.350 main/ERROR] 	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
-[19:25:07.350 main/ERROR] 	at org.geysermc.geyser.network.netty.Bootstraps.lambda$allOf$0(Bootstraps.java:128)
-[19:25:07.350 main/ERROR] 	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)[19:25:07] [Server thread/INFO]: [floodgate] Floodgate wurde in 1’281 ms gestartet
-[19:25:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:25:07] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
-[19:25:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:25:07] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:25:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
-[19:25:10] [Server thread/INFO]: Preparing level "world"
-[19:25:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[19:25:11] [Server thread/INFO]: Preparing spawn area: 100%
-[19:25:11] [Server thread/INFO]: Prepared spawn area in 3 ms
-[19:25:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[19:25:11] [Server thread/INFO]: Prepared spawn area in 2 ms
-[19:25:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[19:25:11] [Server thread/INFO]: Prepared spawn area in 1 ms
-[19:25:11] [Server thread/INFO]: Done preparing level "world" (1.115s)
-[19:25:11] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:25:11] [Server thread/WARN]: [floodgate] "floodgate v2.2.4-SNAPSHOT (b118-40d320a)" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [GeyserMC].
-[19:25:12] [Server thread/INFO]: [spark] Starting background profiler...
-[19:25:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[19:25:12] [Server thread/INFO]: Running delayed init tasks
-[19:25:12] [Server thread/INFO]: Done (23.227s)! For help, type "help"
-[19:25:57] [User Authenticator #0/INFO]: UUID of player lennarthuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[19:25:59] [Server thread/INFO]: lennarthuhn joined the game
-[19:25:59] [Server thread/INFO]: lennarthuhn[/127.0.0.1:60917] logged in with entity id 1 at ([world]-134.3772787279591, 201.06232970394626, -485.47387737088286)
-[19:49:06] [User Authenticator #1/INFO]: UUID of player Prytton is 4cc613ce-ea03-4a6d-8114-e442766f72ef
-[19:49:06] [Server thread/INFO]: Prytton joined the game
-[19:49:06] [Server thread/INFO]: Prytton[/127.120.148.168:63039] logged in with entity id 4289 at ([world]-230.69999998807907, 62.0, -447.78850949888715)
-[19:49:11] [Async Chat Thread - #2/INFO]: <lennarthuhn> hi
-[19:49:18] [Async Chat Thread - #2/INFO]: <Prytton> helo
-[19:51:08] [Async Chat Thread - #3/INFO]: <Prytton> hab mir noch ein neuen skin geholt
-[19:51:26] [Async Chat Thread - #3/INFO]: <lennarthuhn> sieht gut aus
-[19:51:36] [Async Chat Thread - #3/INFO]: <Prytton> danke :)
-[20:08:08] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
-[20:08:11] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
-[20:08:27] [Async Chat Thread - #5/INFO]: <lennarthuhn> gratulation
-[20:08:35] [Async Chat Thread - #5/INFO]: <Prytton> danke
-[20:12:00] [Server thread/INFO]: Prytton has made the advancement [Diamonds!]
-[20:14:41] [Server thread/INFO]: Prytton issued server command: /attribute @s minecraft:scale base set 30
-[20:17:19] [Server thread/INFO]: Prytton issued server command: /attribute @s minecraft:scale base set 1.1
-[20:17:39] [Server thread/INFO]: Prytton issued server command: /attribute @s minecraft:scale base set 1
-[20:18:11] [Server thread/INFO]: Prytton issued server command: /attribute minecraftchicken minecraft:scale base set 2
-[20:20:03] [Async Chat Thread - #7/INFO]: <lennarthuhn> ich muss kurz off
-[20:20:05] [Server thread/INFO]: Prytton fell out of the world
-[20:20:06] [Server thread/INFO]: lennarthuhn lost connection: Disconnected
-[20:20:06] [Server thread/INFO]: lennarthuhn left the game
-[20:20:42] [Server thread/INFO]: Prytton lost connection: Disconnected
-[20:20:42] [Server thread/INFO]: Prytton left the game
-[20:21:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:57:55] [User Authenticator #2/INFO]: UUID of player lennarthuhn is c3d120a8-a526-40d7-a711-82c469242bf6
-[20:57:55] [Server thread/INFO]: lennarthuhn joined the game
-[20:57:55] [Server thread/INFO]: lennarthuhn[/127.0.0.1:49277] logged in with entity id 10337 at ([world]-136.18989713196729, 111.85665452830801, -496.63172927435096)
-[21:20:15] [Server thread/INFO]: lennarthuhn issued server command: /attribute @s minecraft:scale base set 0.5
-[22:12:03] [Server thread/INFO]: lennarthuhn lost connection: Disconnected
-[22:12:03] [Server thread/INFO]: lennarthuhn left the game
+	at org.geysermc.geyser.platform[17:37:48] [ServerMain/INFO]: Loaded 1461 recipes
+[17:37:48] [ServerMain/INFO]: Loaded 1574 advancements
+[17:37:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:37:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 615.7ms[17:37:49.397 main/INFO] ******************************************
+[17:37:49.397 main/INFO] 
+[17:37:49.398 main/INFO] Geyser Version 2.9.0-b952 (git-master-3f7da1d) wird geladen
+[17:37:49.398 main/INFO] 
+[17:37:49.399 main/INFO] ******************************************
+[17:37:54.603 GeyserServer-2-1/INFO] Geyser auf UDP-Port 19132 gestartet
+[17:37:54.614 main/INFO] Fertig (5.215s)! Verwende /geyser help für Hilfe!
+[17:37:54.614 main/WARN] Geyser übersetzt Bewegungen aus Bedrock nicht perfekt. Die Nutzung von Geyser auf Servern, welche ein Anti-Cheat System einsetzen, kann einen Bann zur Folge haben.
+[17:37:54.739 ForkJoinPool.commonPool-worker-6/INFO] Es steht ein neues Geyser Update zur Unterstützung von Bedrock Version 1.21.120 zur Verfügung. Laden Sie es hier herunter: https://geysermc.org/download
+[22:03:51.645 main/INFO] Geyser wird beendet.
+[22:03:51.795 main/INFO] Geyser erfolgreich beendet.
+el type
+[17:37:51] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:37:51] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:37:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
+[17:37:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@29022b83]
+[17:37:52] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[17:37:54] [Server thread/INFO]: [floodgate] Floodgate wurde in 1’379 ms gestartet
+[17:37:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:37:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
+[17:37:54] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:37:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:37:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
+[17:37:57] [Server thread/INFO]: Preparing level "world"
+[17:37:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[17:37:58] [Server thread/INFO]: Preparing spawn area: 100%
+[17:37:58] [Server thread/INFO]: Prepared spawn area in 2 ms
+[17:37:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[17:37:58] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:37:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[17:37:58] [Server thread/INFO]: Prepared spawn area in 0 ms
+[17:37:58] [Server thread/INFO]: Done preparing level "world" (1.273s)
+[17:37:58] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[17:37:58] [Server thread/WARN]: [floodgate] "floodgate v2.2.4-SNAPSHOT (b118-40d320a)" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [GeyserMC].
+[17:37:59] [Server thread/INFO]: [spark] Starting background profiler...
+[17:37:59] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:37:59] [Server thread/INFO]: Running delayed init tasks
+[17:37:59] [Server thread/INFO]: Done (23.116s)! For help, type "help"
+[17:38:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:40:45] [User Authenticator #0/INFO]: UUID of player lennarthuhn is c3d120a8-a526-40d7-a711-82c469242bf6
+[17:40:48] [Server thread/INFO]: lennarthuhn joined the game
+[17:40:48] [Server thread/INFO]: lennarthuhn[/127.0.0.1:59630] logged in with entity id 1 at ([world]-136.96258317071636, 106.79792660817041, -468.693777463125)
+[18:32:41] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[18:32:43] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[18:48:58] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[18:49:01] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[18:50:40] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[18:50:43] [Server thread/INFO]: [@: Changed the block at -137, 97, -444]
+[22:03:31] [Server thread/INFO]: lennarthuhn lost connection: Disconnected
+[22:03:31] [Server thread/INFO]: lennarthuhn left the game
+[22:03:55] [Server thread/INFO]: Stopping server
+[22:03:55] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[22:03:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.17+7262-c7fbe08
+[22:03:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:03:56] [Server thread/INFO]: Saving players
+[22:03:56] [Server thread/INFO]: Saving worlds
+[22:03:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:03:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:03:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:03:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:03:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:03:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:03:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:03:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:03:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:03:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:03:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:03:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
